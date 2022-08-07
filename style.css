@@ -1,0 +1,383 @@
+/*---===================== button ======================--*/
+.button{
+    background-color: #F2664B !important;
+    color: #fff;
+    border: 1px solid #F2664B;
+    padding: 8px 20px;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+    font-weight: 500;
+}
+/*---===================== button hover ======================--*/
+.button:hover{
+    background-color:#fff !important;
+    color: #F2664B;
+    border: 1px solid #F2664B;  
+}
+
+
+/*---=====================hero section======================--*/
+#hero{
+    background-image: url(image/header/image\ 39.jpg);
+    height: 572px;
+    background-size:cover;
+    background-position: center;
+}
+
+
+
+/*---====================headerlst section=======================--*/
+#headerlst{
+    background-color: #EDEFF2;
+}
+/*---headerlst class--*/
+.headerlst{
+    padding: 0 120px;   
+}
+
+/*---headerlst paragraph--*/
+.headerlst p{
+    font-size: 14px;
+    color: #969799;
+}
+
+/*---head-text h1--*/
+#head-text h1{
+    font-size: 40px !important;
+}
+
+ /*---====================== food section ======================---*/
+/*---services class--*/
+.services{
+    background-color: #FFF4E1;
+    margin-top:-2px ;
+}
+.bg-color{
+    background-color: #FFF4E1;
+}
+
+
+/*---===================== Price section ===================-----*/
+#price{
+    padding-left: 200px;
+    padding-bottom: 65px;
+}
+
+
+/*---====================== Last section =====================-----*/
+#last{
+    padding: 0 380px;
+    background-color: #EEEFF2;
+}
+#last-p{
+    font-size: 22px;
+    font-weight: 500;
+    color: #4B4F54;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.text6{
+    background-color: #fff;
+   
+    padding: 50px 0;
+}
+
+/*----=====================bottom section======================---*/
+#bottoms6{
+    padding: 139px 565px 257px 565px;
+}
+
+
+
+
+/*---==================== Footer section =======================-----*/
+
+#section6{
+    background-image: url(image/Last/image\ 41.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.card{
+    margin-top: -50px;
+}
+
+#line{
+    padding: 100px 0;
+}
+
+/*---====================== section 4 ======================---*/
+#pet{
+    padding:0 300px;
+}
+
+/*---======================contact section ======================---*/
+#contact{
+    padding: 50px 200px;
+    background-color: #EEEFF2;
+}
+
+#reviews a{
+    color: #000000;
+}
+
+/*-------===================================
+===============RESPONSIVE AREAS ============
+====================================-------*/
+
+
+/*-------EXTRA SMALL -------*/
+@media only screen and (min-width: 360px) {
+    /*--======================hero section======================-*/
+
+    /*----======================headerlst section =======================--*/
+    .headerlst {
+        padding: 0 20px;
+    }
+    #head-text h1{
+        font-size: 22px !important;
+    }
+    /*----======================About section =======================--*/
+      /*---- svg ----*/
+      .svg img{
+        width: 30px !important;
+        margin-right: 8px;
+    }
+
+    /*---====================== food section ======================---*/
+        #foodp{
+            font-size: 15px !important;
+        }
+        .services{
+            padding: 0 20px;
+        }
+    /*---====================== section 4 ======================---*/
+        #pet{
+            padding:0 20px;
+        }
+    /*---====================== section 5 ======================---*/
+        #price{
+            padding: 0 20px;
+            padding-bottom: 35px;
+            
+        }
+        #pricep{
+            font-size: 15px !important;
+        }
+    /*---====================== section 6 ======================---*/
+        #last{
+            padding: 0 20px;
+        }
+        #lasth{
+            font-size: 22px !important;
+        }
+        #last-p{
+            font-size: 15px !important;
+            
+        }
+        
+        .lastsp p{
+            font-size: 12px !important;
+        }
+        #bottoms6 {
+            padding: 0;
+        }
+        .middle h2{
+            font-size: 20px !important;
+        }
+
+    /*---======================contact section ======================---*/
+        #contact {
+            padding: 0;
+        }
+}
+
+
+
+/*------- SMALL (sm)-------*/
+@media only screen and (min-width: 576px) {
+
+    /*--======================hero section=====================-*/
+
+    /*----======================headerlst section ======================--*/
+
+    /*----======================About section =======================--*/
+
+    /*---====================== food section ======================---*/
+    #foodp{
+        font-size: 18px !important;
+    }
+    /*---====================== section 4 ======================---*/
+
+    /*---====================== section 5 ======================---*/
+    #pricep{
+        font-size: 16px !important;
+    }
+    /*---====================== section 6 ======================---*/
+    #lasth{
+        font-size: 25px !important;
+    }
+    #last-p{
+        font-size: 18px !important;
+    }    
+    /*---======================contact section ======================---*/
+    
+}
+
+
+
+/*-------MEDIUM (md)-------*/
+@media only screen and (min-width: 768px) {
+    /*--======================hero section======================---*/
+
+    /*----======================headerlst section =======================---*/
+    #head-text h1{
+        font-size: 30px !important;
+    }
+    /*----======================About section =======================---*/
+      /*---- svg ----*/
+    .svg img{
+        width: 30px !important;
+        margin-right: 10px;
+    }
+    .svg{
+        margin-left: -20px;
+    }
+    /*---====================== food section ======================---*/
+    #foodp{
+        font-size: 18px !important;
+    }
+    /*---====================== section 4 ======================---*/
+
+    /*---====================== section 5 ======================---*/
+    #pricep{
+        font-size: 16px !important;
+    }
+    /*---====================== section 6 ======================---*/
+    #lasth{
+        font-size: 30px !important;
+    }
+    #last-p{
+        font-size: 18px !important;
+    }    
+    /*---======================contact section ======================---*/
+   
+  
+}
+
+/*-------LARGE (lg)-------*/
+@media only screen and (min-width: 992px) {
+    /*--======================hero section======================-*/
+
+    /*----======================headerlst section =======================--*/
+    #head-text h1{
+        font-size: 35px !important;
+    }
+    /*----======================About section =======================--*/
+
+    /*---====================== food section ======================---*/
+    #foodp{
+        font-size: 20px !important;
+    }
+    /*---====================== section 4 ======================---*/
+
+    /*---====================== section 5 ======================---*/
+    #pricep{
+        font-size: 18px !important;
+    }
+    /*---====================== section 6 ======================---*/
+    #lasth{
+        font-size: 35px !important;
+    }
+    #last-p{
+        font-size: 20px !important;
+    }
+    /*---======================contact section ======================---*/
+    #pet{
+        padding:0 80px;
+    }
+
+
+}
+
+/*-------EXTRA LARGE (xl)-------*/
+@media only screen and (min-width: 1200px) {
+    /*----======================hero section======================----*/
+
+    /*----======================headerlst section =======================--*/
+    #head-text h1{
+        font-size: 40px !important;
+    }
+    /*----======================About section =======================--*/
+    .svg img{
+        width: 30px !important;
+        margin-right: 10px;
+    }
+    .svg{
+        margin-left: -40px;
+    }
+    /*---====================== food section ======================---*/
+    #foodp{
+        font-size: 22px !important;
+    }
+    /*---====================== section 4 ======================---*/
+
+    /*---====================== section 5 ======================---*/
+    #pricep{
+        font-size: 18px !important;
+    }
+    /*---====================== section 6 ======================---*/
+    #lasth{
+        font-size: 40px !important;
+    }
+    #last-p{
+        font-size: 20px !important;
+    }
+    /*---======================contact section ======================---*/
+    #bottoms6{
+        padding: 139px 400px 257px 400px;
+    }
+    #pet{
+        padding:0 100px;
+    }
+    /*--------======================about section======================-----------*/
+     /*---- svg ----*/
+    
+}
+
+/*-------EXTRA EXTRA LARGE (xxl)-------*/
+@media only screen and (min-width: 1400px) {
+    
+    /*--======================hero section==================--------*/
+
+    /*----======================headerlst section =======================--*/
+    #head-text h1{
+        font-size: 40px !important;
+    }
+    /*----======================About section =======================--*/
+    .svg img{
+        width: 30px !important;
+        margin-right: 10px;
+    }
+    .svg{
+        margin-left: -40px;
+    }
+    /*---====================== food section ======================---*/
+    #foodp{
+        font-size: 22px !important;
+    }
+    /*---====================== section 4 ======================---*/
+
+    /*---====================== section 5 ======================---*/
+    #pricep{
+        font-size: 20px !important;
+    }
+    /*---====================== section 6 =====================---*/
+    #lasth{
+        font-size: 40px !important;
+    }
+
+    /*---======================contact section ======================---*/
+    
+    }
